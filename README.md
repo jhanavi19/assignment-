@@ -9,7 +9,7 @@ The command list will return all urls and count.
 
 GUIDE TO RUN THE CODE
 The code has been runned on IntelliJ platform.
-First creat main java file and type the code.
+First create main java file and type the code.
 execute the code and the desired output is displayed.
 
 DESCRIPTION ABOUT THE OUTPUT
