@@ -1,0 +1,39 @@
+Documentation on architecture and design as architecture:
+
+Java Architecture is a collection of components, i.e., JVM, JRE, and JDK. It integrates the process of interpretation and compilation. It defines all the processes involved in creating a Java program. Java Architecture explains each and every step of how a program is compiled and executed.
+Java Architecture can be explained by using the following steps:
+o	There is a process of compilation and interpretation in Java.
+o	Java compiler converts the Java code into byte code.
+o	After that, the JVM converts the byte code into machine code.
+o	The machine code is then executed by the machine.
+The following figure represents the Java Architecture in which each step is elaborate graphically.
+
+ 
+Components of Java Architecture
+The Java architecture includes the three main components:
+o	Java Virtual Machine (JVM)
+o	Java Runtime Environment (JRE)
+o	Java Development Kit (JDK)
+
+
+Requirements
+1. To start the program: run java urldatabase. Further, the program will wait for the user to enter the following
+commands.
+2. The command storeurl shall take a URL as a parameter and save that into a table with a unique short key and a
+count(usage count) initialized to 0.
+a. Use local variables instead of a database to store the data.
+b. Use any appropriate logic to generate the unique short key.
+3. The command get shall take a URL as a parameter and return the unique short key after incrementing the usage
+count.
+4. The command count shall take a URL as a parameter and should return the latest usage count.
+5. The command list should return all urls and counts. The return value is in JSON.
+6. The command exit should terminate the program
+Example Commands usage
+1. To start the program: run java urldatabase.
+2. Commands:
+a. storeurl google.com
+b. get google.com
+c. count google.com
+d. list
+3. To exit the program enter exit
+
